@@ -16,6 +16,48 @@ body {
   color: #555555;
 }
 
+#stats .stat-numbers {
+    margin-top: 10px;
+}
+
+#stats .numbers {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #f14547;
+    display: block;
+    margin-bottom: 5px;
+    line-height: 1em;
+}
+
+#stats {
+    padding: 30px 30px;
+    background: #f8f8f8;
+}
+
+.brands {
+    text-align: center;
+}
+
+.align-spaced {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.grid-x {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.grid-container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
