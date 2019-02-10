@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 h1 {
@@ -142,13 +142,38 @@ img {
     width: 41.66667%;
 }
 
-/*start of third sectionss*/
+/*start of fourth sectionss*/
+h2 {
+    font-family: Asap,sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.grid-container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+article, aside, footer, header, nav, section {
+    display: block;
+}
+section.padded {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.h2.headings{
+  margin-left: 480px;
+
+}
 
 
 
-
-
-/*end of third sectionss
+/*end of fourth sectionss
 */
 
 h1,
@@ -157,7 +182,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #FFFFFF;
+  color: #614545;
 }
 
 a {
